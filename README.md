@@ -1,4 +1,4 @@
-# Lab 5 — DMA Controller (APB + AXI4-Lite)
+# Lab — DMA Controller (APB + AXI4-Lite)
 
 ## Overview
 This project implements a DMA (Direct Memory Access) controller that moves a block of data from one memory address to another without CPU intervention on every transaction. The design is written in Verilog and exposes two interfaces: an APB slave interface (used by a host/CPU to configure and control the DMA) and an AXI4-Lite master interface (used to read/write memory-mapped regions).
